@@ -6,7 +6,7 @@ const HIDDEN_CLASSNAME = 'hidden';
 
 function paintGreetings(){
   let username = localStorage.getItem('username');
-  greeting.innerHTML=`How are you!!! ${username}`;
+  greeting.innerHTML=`How are you!!! ${username}!`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
